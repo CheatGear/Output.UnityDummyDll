@@ -10,7 +10,13 @@ using CG.SDK.Dotnet.Plugin.Output;
 
 namespace CG.Output.UnityDummyDll;
 
-[PluginInfo(Name = nameof(UnityDummyDll), Version = "5.0.0", Author = "CorrM", Description = "Generate dummy dll", WebsiteLink = "https://github.com/CheatGear", SourceCodeLink = "https://github.com/CheatGear/Output.UnityDummyDll")]
+[PluginInfo(Name = nameof(UnityDummyDll),
+    Version = "5.0.0",
+    Author = "CorrM",
+    Description = "Generate dummy dll",
+    WebsiteLink = "https://github.com/CheatGear",
+    SourceCodeLink = "https://github.com/CheatGear/Output.UnityDummyDll"
+)]
 public sealed class UnityDummyDll : OutputPlugin<UnitySdkFile>
 {
     public override string OutputName => "DummyDll";
