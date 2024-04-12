@@ -10,7 +10,8 @@ using CG.SDK.Dotnet.Plugin.Output;
 
 namespace CG.Output.UnityDummyDll;
 
-[PluginInfo(Name = nameof(UnityDummyDll),
+[PluginInfo(
+    Name = nameof(UnityDummyDll),
     Version = "5.0.0",
     Author = "CorrM",
     Description = "Generate dummy dll",
