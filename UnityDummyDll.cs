@@ -8,7 +8,7 @@ using CG.SDK.Dotnet.Engine.Unity;
 using CG.SDK.Dotnet.Helper.IO;
 using CG.SDK.Dotnet.Plugin.Output;
 
-namespace CG.Output.UnityDummyDll;
+namespace CG.Output;
 
 [PluginInfo(
     Name = nameof(UnityDummyDll),
